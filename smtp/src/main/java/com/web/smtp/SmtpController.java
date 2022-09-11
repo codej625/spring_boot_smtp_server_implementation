@@ -73,6 +73,7 @@ public class SmtpController {
 		// Session 생성 & 발신자 smtp 서버 로그인 인증
 		Session session = Session.getInstance(props, new javax.mail.Authenticator() {
 			protected javax.mail.PasswordAuthentication getPasswordAuthentication() {
+				
 				return new javax.mail.PasswordAuthentication(username, password);
 			}
 		});
