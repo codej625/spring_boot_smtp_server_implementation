@@ -47,7 +47,7 @@ public class SmtpController {
 		// 수신자에게 보낼 email subject
 		String subject = "hello! nice to meet you!";
 		// 수신자에게 보낼 email contents
-		String contents = "내용";
+		String contents = "contents";
 
 		// smtp server setting
 		Properties props = System.getProperties();
