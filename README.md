@@ -1,2 +1,1 @@
-# smtp_spring
-smtp
+# 스프링부트로 구현하는 smtp 서버
